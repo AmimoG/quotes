@@ -1,5 +1,5 @@
 .content {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)), url("/assets/Sunset-in-Africa.jpg");
+    background-image: url("/assets/Sunset-in-Africa.jpg");
     background-size: cover;
     /* background-position: center; */
     padding-bottom: 23rem;
