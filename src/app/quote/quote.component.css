@@ -1,5 +1,6 @@
 .content {
     background-image: url("/assets/Sunset-in-Africa.jpg");
+    background-color: rgb(red, green, blue);
     background-size: cover;
     /* background-position: center; */
     padding-bottom: 23rem;
