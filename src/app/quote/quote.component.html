@@ -6,8 +6,16 @@
                     <i class="fa fa-quote-left"></i>
                     <span class="text-uppercase">Quotes</span>
                     <i class="fa fa-quote-right"></i>
+                    <!-- <p>
+                      Every culture has its share of wise proverbs or sayings, usually single sentences, passed down from one generation to the next. 
+                      While these sayings may vary from one language, culture, and country to another, the wisdom they convey is universal. 
+                    </p> -->
                 </h1>
             </div>
+            <p>
+              Every culture has its share of wise proverbs or sayings, usually single sentences, passed down from one generation to the next. 
+              While these sayings may vary from one language, culture, and country to another, the wisdom they convey is universal. 
+            </p>
         </div>
     </div>
 </div>
@@ -27,11 +35,11 @@
               <p id="{{i}}">~Submitted {{ kwot.timeCreated | timeCount }} days ago~</p>
               <button>
                 <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <span style="font-size: 1.5em; color: darkslategrey;" (click)="adding(i)">UpVote</span>
+                <span style="font-size: 1.5em; color: darkslategrey;" (click)="adding(i)"></span>
               </button>
               <button>
                 <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <span style="font-size: 1.5em; color: crimson;" (click)="removing(i)">DownVote</span>
+                <span style="font-size: 1.5em; color: crimson;" (click)="removing(i)"></span>
               </button>
               <app-quote-details [quote]='kwot' (isComplete)='deleteQuote($event,i)'></app-quote-details>
             </div>

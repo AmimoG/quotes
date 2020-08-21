@@ -1,7 +1,8 @@
 .content {
-    background-image: url("/assets/Sunset-in-Africa.jpg");
+    background-image: url("/assets/BG.jpg");
     background-color: rgb(red, green, blue);
     background-size: cover;
+    height: 70vh;
     /* background-position: center; */
     padding-bottom: 23rem;
     padding-top: 21rem;
@@ -18,6 +19,12 @@
 }
 .text-uppercase {
   font-size: 30px;
+}
+.row p{
+  text-align: center;
+  font-size: medium;
+  text-align: center;
+  bottom: 10px;
 }
 .col-md-6{
   padding-bottom: 5rem
