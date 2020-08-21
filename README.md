@@ -8,15 +8,14 @@
 
 
 ## General info
- This is a wed application for Delani studio that shows in detail the services being offered at Delani Studio. The web page also has information about the studio, a portfolio section and a form that enables users to send their messages and concern to Delani studios.
-	
+ This is a wed application that enables a users to create quotes and have those quotes voted on whether they are terrible or whether the quotes are inspirational.
+
 ## Technologies
 Project is created with:
-* HTML:5 for giving the structure of the webpage.
+* Angular: for giving the structural framework of the application.
 * CSS:3 for styling the webpage.
 * Bootstrap for more styling of the webpage.
-* JavaScript: Creation of responsive, interactive elements of the page, enhancing the user experience.
-* jQuery: This was used to toggle icons between the respective description of each icon.
+* Typescript and JavaScript: Creation of responsive, interactive elements of the page, enhancing the user experience.
 	
 ## Setup
 To run this project, use the live link in the GitHub repo:
