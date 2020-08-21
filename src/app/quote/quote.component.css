@@ -52,10 +52,16 @@ p{
 }  */
 
 .list-inline-item a {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    margin-right: 10px;
 } 
+
+.list-inline{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* margin: 0 5px;
+  margin-right: 20px; */
+}
 
 .form-quote{
   padding-top: 3rem;
