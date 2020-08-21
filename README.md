@@ -4,7 +4,7 @@
 * [Setup](#setup)
 * [license](#license)
 
-![GitHub Logo](/images/ReadMe.png)
+![GitHub Logo](/assets/ReadMe.png)
 
 
 ## General info
