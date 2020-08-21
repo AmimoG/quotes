@@ -35,11 +35,11 @@
               <p id="{{i}}">~Submitted {{ kwot.timeCreated | timeCount }} days ago~</p>
               <button>
                 <i class="fa fa-thumbs-up" aria-hidden="true"></i>
-                <span style="font-size: 1.5em; color: darkslategrey;" (click)="adding(i)"></span>
+                <span style="font-size: 1.5em; color: darkslategrey;" (click)="adding(i)">UpVote</span>
               </button>
               <button>
                 <i class="fa fa-thumbs-down" aria-hidden="true"></i>
-                <span style="font-size: 1.5em; color: crimson;" (click)="removing(i)"></span>
+                <span style="font-size: 1.5em; color: crimson;" (click)="removing(i)">DownVote</span>
               </button>
               <app-quote-details [quote]='kwot' (isComplete)='deleteQuote($event,i)'></app-quote-details>
             </div>
