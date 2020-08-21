@@ -36,7 +36,7 @@ export class QuoteComponent implements OnInit {
   //   by: String
   // }
 
-  theQuotes=[new Quote("Remember no one can make you feel inferior without your consent.","Eleanor Roosevelt","Me",new Date(2018,3,17))]
+  theQuotes=[new Quote("Be humble for you are made of earth, Be noble for you are made of stars.","Amimo Matete","Me",new Date(2020,8,20))]
 
   deleteQuote(isComplete,index) {
     this.theQuotes.splice(index,1);
