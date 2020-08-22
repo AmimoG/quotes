@@ -47,6 +47,7 @@ export class QuoteComponent implements OnInit {
     console.log(this.theQuotes);
   }
   public count = 0;
+  public count1 = 0;
 
   adding(index){
     this.theQuotes[index].votes = this.theQuotes[index].votes + 1;
@@ -56,17 +57,16 @@ export class QuoteComponent implements OnInit {
     console.log(this.theQuotes[index].votes);
   }
   removing(index){
-    if(this.theQuotes[index].votes > 0){
+    if(this.theQuotes[index].votes > 0, 0){
       this.theQuotes[index].votes = this.theQuotes[index].votes - 1;
-    } else this.theQuotes[index].votes = 0;
+    } else this.theQuotes[index].votes = 0, 0;
     console.log(this.theQuotes[index].votes);
   }
 
   constructor() { }
 
   ngOnInit() {
-    // this.myQuote.quote = "Remember no one can make you feel inferior without your consent.";
-    // this.myQuote.by= "Eleanor Roosevelt";
+
   }
 
 }
