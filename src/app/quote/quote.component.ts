@@ -37,7 +37,6 @@ export class QuoteComponent implements OnInit {
   // }
 
   theQuotes=[new Quote("Be humble for you are made of earth, Be noble for you are made of stars.","Amimo Matete","Me",new Date(2020,8,20))]
-  
 
   deleteQuote(isComplete,index) {
     this.theQuotes.splice(index,1);
@@ -48,7 +47,6 @@ export class QuoteComponent implements OnInit {
     console.log(this.theQuotes);
   }
   public count = 0;
-  public count1 = 0;
 
   adding(index){
     this.theQuotes[index].votes = this.theQuotes[index].votes + 1;
@@ -58,16 +56,16 @@ export class QuoteComponent implements OnInit {
     console.log(this.theQuotes[index].votes);
   }
   removing(index){
-    if(this.theQuotes[index].votes > 0, 0){
+    if(this.theQuotes[index].votes > 0){
       this.theQuotes[index].votes = this.theQuotes[index].votes - 1;
-    } else this.theQuotes[index].votes = 0, 0;
+    } else this.theQuotes[index].votes = 0;
     console.log(this.theQuotes[index].votes);
   }
 
   constructor() { }
 
   ngOnInit() {
-
+    
   }
 
 }
